@@ -12,7 +12,7 @@ for i in range(n):
         COND += 1
     
 
-    digits = sum(1 for dig in UID if dig.isdigit())
+    digits = sum(1 for dig in UID if dig.isdigit()) 
     if digits >= 3:
         COND += 1
    
